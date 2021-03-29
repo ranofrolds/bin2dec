@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary 2 Decimal Converter</title>
+    <link rel="icon" href="file-binary-512.webp">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>BINARY TO DECIMAL</h1>
+
+        <div class="input">
+            <p>Binary: </p>
+            <input type="text" id="input_a">
+        </div>
+        <div class="input">
+            <p>Decimal: </p>
+            <input type="text" id="input_b" readonly>
+        </div>
+        
+        <div class="button">
+            <button value="Convert" onclick="convert()">Convert</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

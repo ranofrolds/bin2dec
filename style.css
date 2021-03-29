@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: content-box;
+}
+
+
+body{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color:white; 
+    background: #0b040b;
+    font-weight: 400px;
+    font-size: 1.8rem;
+    line-height: 1;
+    font-family: 'Nunito', sans-serif;
+    
+
+}
+
+input{
+    outline: none;
+}
+
+.container{
+    display: flex;
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 25vh;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 1px;
+    border-color: #47ffe7;
+    box-shadow:0 0 0.2em #47ffe7 ;
+    padding: 50px;
+    text-shadow: 0 0 0.2em #47ffe7,
+    0 0 0.2em #47ffe7;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.input input{
+    box-shadow:0 0 0.2em #47ffe7 ;
+    background: #0b040b;
+    color:white;
+    text-shadow: 0 0 0.2em #47ffe7;
+}
+
+.input p{
+    text-shadow: 0 0 0.2em #47ffe7;
+    margin-right: 15px;
+}
+
+.input #input_a,
+ .input #input_b{
+    height: 35px;
+    font-size: 14pt;
+    padding-left: 5px;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 1px;
+    border-color: #47ffe7;
+}
+
+.button button{
+    margin-top: 50px;
+    width: 200px;
+    height: 35px;
+    border-radius: 30px;
+    border-color: #47ffe7;
+    border-width: 1px;
+    box-shadow:0 0 0.2em #47ffe7 ;
+    cursor: pointer;
+    font-size: large;
+    font-family: 'Nunito', "sans-serif";
+    text-shadow: 0 0 0.2em #47ffe7;
+    color: white;
+    text-align: center;
+    align-items: center;
+    background: #0b040b;
+    transition: 0.8s ease;
+    outline: none;
+    
+}
+
+.button button:hover{
+    
+    background-color:#194241;
+}
+
+.button button:active{
+    transition: 0.4s ease;
+    background-color: #298179;
+    
+}
